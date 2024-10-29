@@ -5,6 +5,10 @@ This project is intended to be a baseball simulator game. It should have the abi
 ## Details
 
 To run, you must:
-* build gradle
-* cd build/classes/java/main
-* java Main
+* ./gradlew build
+* java -jar build/libs/baseball-1.0-SNAPSHOT.jar 
+
+To view test results, you must:
+* firefox build/reports/tests/test/index.html
+
+

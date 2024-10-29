@@ -1,3 +1,20 @@
 plugins {
     id 'java'
 }
+
+repositories {
+    mavenCentral()
+}
+
+jar {
+    manifest {
+        attributes 'Main-Class':'com.dtxt.Game'
+    }
+}
+
+dependencies {
+    testCompile 'junit:junit:4.12'
+}
+
+group 'com.dtxt'
+version '1.0-SNAPSHOT'
