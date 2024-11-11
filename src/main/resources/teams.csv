@@ -6,12 +6,12 @@ C,PC,VCJ,Vancouver Jacks,Vancouver,British Columbia,Jacks
 C,PC,LAD,Los Angeles Directors,Los Angeles,California,Directors
 C,PC,SAP,Sacramento Prospectors,Sacramento,California,Prospectors
 C,PC,SDL,San Diego Lions,San Diego,California,Lions
-C,PC,SDS,San Francisco Suspenders,San Francisco,California,Suspenders
+C,PC,SFS,San Francisco Suspenders,San Francisco,California,Suspenders
 C,WC,DEN,Denver Dinos,Denver,Colorado,Dinos
 Z,NE,HFR,Hartford Robins,Hartford,Connecticut,Robins
-Z,EC,WDC,Washington Officers,Washington,DC,Officers
+Z,EC,DCO,Washington Officers,Washington,DC,Officers
 C,SW,MCT,Mexico City Toreros,Mexico City,DF,Toreros
-Z,SE,MIM,Miami Manatees,Miami,Florida,Manatees
+Z,SE,MIA,Miami Manatees,Miami,Florida,Manatees
 Z,SE,JEL,Jacksonville Jellies,Jacksonville,Florida,Jellies
 Z,SE,ORL,Orlando Ocelots,Orlando,Florida,Ocelots
 Z,SE,ABF,Atlanta Bullfrogs,Atlanta,Georgia,Bullfrogs
@@ -23,13 +23,13 @@ C,GP,KST,Kansas City Twisters,Kansas City,Missouri,Twisters
 Z,EC,KYD,Kentucky Distillers,Louisville,Kentucky,Distillers
 Z,SE,NOK,New Orleans Kings,New Orleans,Louisiana,Kings
 Z,NE,BOD,Boston Dockers,Boston,Massachusetts,Dockers
-Z,EC,BAO,Baltimore Ospreys,Baltimore,Maryland,Ospreys
+Z,EC,BLT,Baltimore Ospreys,Baltimore,Maryland,Ospreys
 Z,NE,MOX,Maine Moxies,Portland,Maine,Moxies
 Z,MW,DCY,Detroit Cylinders,Detroit,Michigan,Cylinders
 C,GP,MIN,Minneapolis Mallards,Minneapolis,Minnesota,Mallards
 C,GP,SLN,St Louis Nightjars,St Louis,Missouri,Nightjars
 C,WC,CTT,Montana Cutthroats,Billings,Montana,Cutthroats
-Z,EC,CRP,Carolina Reapers,Ralleigh,North Carolina,Reapers
+Z,EC,NCR,Carolina Reapers,Ralleigh,North Carolina,Reapers
 C,GP,OMB,Omaha Bison,Omaha,Nebraska,Bison
 Z,NE,BRX,Newark Brix,Newark,New Jersey,Brix
 C,SW,MVQ,Monterrey Vaqueros,Monterrey,Nuevo Leon,Vaqueros
@@ -44,21 +44,21 @@ Z,MW,CRS,Cleveland Rockstars,Cleveland,Ohio,Rockstars
 C,SW,OFC,Oklahoma Flycatchers,Oklahoma City,Oklahoma,Flycatchers
 Z,MW,OTM,Ottawa Ministers,Ottawa,Ontario,Ministers
 Z,MW,TOT,Toronto Trappers,Toronto,Ontario,Trappers
-C,PC,OGW,Oregon Growlers,Portland,Oregon,Growlers
+C,PC,ORG,Oregon Growlers,Portland,Oregon,Growlers
 Z,EC,PHS,Philadelphia Stripes,Philadelphia,Pennsylvania,Stripes
 Z,MW,PSS,Pittsburg Smokestacks,Pittsburg,Pennsylvania,Smokestacks
 Z,SE,PRP,Puerto Rico Piratas,San Juan,Puerto Rico,Piratas
 Z,NE,MNC,Montreal Clochers,Montreal,Quebec,Clochers
 Z,NE,PRA,Providence Anchors,Providence,Rhode Island,Anchors
 Z,SE,GLB,Greenville Lightning Bugs,Greenville,South Carolina,Lightning Bugs
-Z,EC,NFR,Nashville Flaming Roosters,Nashville,Tennessee,Flaming Roosters
-Z,EC,MPB,Memphis Blues,Memphis,Tennessee,Blues
+Z,EC,NSH,Nashville Flaming Roosters,Nashville,Tennessee,Flaming Roosters
+Z,EC,BLU,Memphis Blues,Memphis,Tennessee,Blues
 C,SW,DAL,Dallas Buckaroos,Dallas,Texas,Buckaroos
 C,SW,HOU,Houston Astronauts,Houston,Texas,Astronauts
 C,SW,SAT,San Antonio Texians,San Antonio,Texas,Texians
 C,SW,AUB,Austin Bats,Austin,Texas,Bats
 C,SW,EPO,El Paso Outlaws,El Paso,Texas,Outlaws
 C,WC,UTH,Utah Hives,Salt Lake City,Utah,Hives
-Z,EC,CPC,Cheapeake Crabs,Norfolk,Virginia,Crabs
+Z,EC,CHS,Cheapeake Crabs,Norfolk,Virginia,Crabs
 C,PC,SEA,Seattle Aviators,Seattle,Washington,Aviators
 C,GP,WWT,Wisconsin Whitetails,Milwaukee,Wisconsin,Whitetails
