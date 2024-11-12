@@ -22,6 +22,9 @@ public class Main{
 		String team = userInput.split(" ")[1].trim().toUpperCase();
 		gameData.show(team);
 	    }
+	    else if(userInput.equalsIgnoreCase("q") || userInput.equalsIgnoreCase("quit")){
+		break;
+	    }
 	    else{
 		System.out.println("UNKNOWN COMMAND");
 	    }
