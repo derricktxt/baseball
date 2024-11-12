@@ -19,11 +19,29 @@ public class Teams{
     }
 
     public String toString(){
-        String toReturn = groupName + ": ";
+        String toReturn = groupName + ":\n";
         for(Team team : teams){
-             toReturn += team.toString() + " ";
+             toReturn += team.toString() + "\n";
         }
         toReturn.substring(0,toReturn.length() - 1);
         return toReturn;
+    }
+
+    public boolean contains(String abbreviation){
+	for(Team t : teams){
+	    if(t.equals(abbreviation)){
+		return true;
+	    }
+	}
+	return teams.contains(abbreviation);
+    }
+
+    public Team get(String abbreviation){
+	for(Team t : teams){
+	    if(t.equals(abbreviation)){
+		return t;
+	    }
+	}
+	return null;
     }
 }

@@ -33,18 +33,6 @@ public class GameData{
             System.err.println("GAMEDATA.JAVA :: Filename " + filename + " not found");
 	    e.printStackTrace();
         }
-
-	System.out.println(copperLeague);
-	System.out.println(zincLeague);
-	System.out.println(pacificCoast);
-	System.out.println(westCentral);
-	System.out.println(greatPlains);
-	System.out.println(southWest);
-	System.out.println(midwest);
-	System.out.println(northEast);
-	System.out.println(southEast);
-	System.out.println(eastCentral);
-
     }
 
     private void processLine(String[] line){
@@ -86,6 +74,56 @@ public class GameData{
 	}
 	else{
 	    midwest.add(team);
+	}
+    }
+
+    public void list(String group){
+	switch(group){
+	  case "CL":
+	    System.out.println(copperLeague);
+	    break;
+	  case "ZL":
+	    System.out.println(zincLeague);
+	    break;
+	  case "PC":
+	    System.out.println(pacificCoast);
+	    break;
+	  case "WC":
+	    System.out.println(westCentral);
+	    break;
+	  case "GP":
+	    System.out.println(greatPlains);
+	    break;
+	  case "SW":
+	    System.out.println(southWest);
+	    break;
+	  case "MW":
+	    System.out.println(midwest);
+	    break;
+	  case "NE":
+	    System.out.println(northEast);
+	    break;
+	  case "SE":
+	    System.out.println(southEast);
+	    break;
+	  case "EC":
+	    System.out.println(eastCentral);
+	    break;
+	  default:
+	    System.out.println("Unknown group");
+	    System.out.println("CL, ZL, PC, WC, SW, GP, MW, NE, EC, SE");
+	}
+    }
+
+    public void show(String teamCode){
+	if(copperLeague.contains(teamCode)){
+	    System.out.println(copperLeague.get(teamCode));
+	}
+	else if(zincLeague.contains(teamCode)){
+	    System.out.println(zincLeague.get(teamCode));
+	}
+	else{
+	    System.out.println("NOT FOUND");
 	}
     }
 
