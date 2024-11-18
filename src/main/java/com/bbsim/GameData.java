@@ -21,7 +21,7 @@ public class GameData{
     private Teams eastCentral = new Teams("EAST CENTRAL");
     private Teams midwest = new Teams("MIDWEST");
     
-
+    private int id = 1;
     public GameData(String filename){
         try{
 	    Scanner scanner = new Scanner(new File(filename));
@@ -36,7 +36,7 @@ public class GameData{
     }
 
     private void processLine(String[] line){
-	Team team = new Team(line[2],line[3],line[4],line[5],line[6]);
+	Team team = new Team(line[2],line[3],line[4],line[5],line[6],line[0],line[1],id++);
 	if(line[0].charAt(0) == 'C'){
 	    copperLeague.add(team);
 	    addCopperDivision(team, line[1]);
